@@ -71,9 +71,9 @@
 
 ## :calendar: Os Sprints
 
-☑️ SPRINT 1 ([Link da Pasta](https://github.com/renato-wessmer/SENAI-Front-End/tree/main/02%20-%20Metodologias%20%C3%A1geis)): Concluído :heavy_check_mark:
+☑️ SPRINT 1 ([Link da Pasta](https://github.com/renato-wessmer/SENAI-Front-End/tree/main/02%20-%20Metodologias%20%C3%A1geis/Entrega)): Concluído :heavy_check_mark:
 
-☑️ SPRINT 2 ([Link da Pasta](https://github.com/senaiFrontEnd/metodologias-ageis)): A fazer 
+☑️ SPRINT 2 ([Link da Pasta](https://github.com/renato-wessmer/SENAI-Front-End/tree/main/04%20-%20Versionamento/04a_Atividade_1)): Concluído :heavy_check_mark:
 
 ☑️ SPRINT 3 ([Link da Pasta](https://github.com/senaiFrontEnd/Fundamentos-da-qualidade-e-produtividade)): A fazer 
 
