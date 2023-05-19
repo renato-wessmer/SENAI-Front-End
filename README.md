@@ -18,7 +18,7 @@
   <a href ="#dart-proposta">Proposta</a>  •
   <a href ="#bulb-metodologia-utilizada">Metodologia</a>  •
   <a href ="#hourglass_flowing_sand-planejamento-de-aulas">Planejamento</a>  •
-  <a href ="#calendar-os-sprints">Entregas</a>  •
+  <a href ="#calendar-as-entregas-dos-sprints">Entregas</a>  •
   <a href ="#camera_flash-as-versões-finais-dos-projetos">Versões das entregas</a>  •
   <a href ="#computer-tecnologias-utilizadas">Tecnologias</a>  •
   <a href ="#mortar_board-colaborador">Colaboradores</a>
@@ -69,29 +69,29 @@
 <a href ="#pushpin-início">Voltar ao início</a>  
 <br>
 
-## :calendar: Os Sprints
+## :calendar: As entregas dos Sprints
 
 ☑️ SPRINT 1 ([Link da Pasta](https://github.com/renato-wessmer/SENAI-Front-End/tree/main/02%20-%20Metodologias%20%C3%A1geis/Entrega)): Concluído :heavy_check_mark:
 
 ☑️ SPRINT 2 ([Link da Pasta](https://github.com/renato-wessmer/SENAI-Front-End/tree/main/04%20-%20Versionamento/04a_Atividade_1)): Concluído :heavy_check_mark:
 
-☑️ SPRINT 3 ([Link da Pasta](https://github.com/senaiFrontEnd/Fundamentos-da-qualidade-e-produtividade)): A fazer 
+☑️ SPRINT 3 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 4 ([Link da Pasta](https://github.com/senaiFrontEnd/Versionamento)): A fazer 
+☑️ SPRINT 4 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 5 ([Link da Pasta](https://github.com/senaiFrontEnd/Saude-e-seguranca-no-trabalho)): A fazer 
+☑️ SPRINT 5 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 6 ([Link da Pasta](https://github.com/senaiFrontEnd/Logica-de-programacao)): A fazer 
+☑️ SPRINT 6 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 7 ([Link da Pasta](https://github.com/senaiFrontEnd/Fundamentos-da-industria-4.0)): A fazer 
+☑️ SPRINT 7 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 8 ([Link da Pasta](https://github.com/senaiFrontEnd/Sustentabilidade-nos-processos-industriais)): A fazer 
+☑️ SPRINT 8 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 9 ([Link da Pasta](https://github.com/senaiFrontEnd/Codificacao-para-Front-End)): A fazer 
+☑️ SPRINT 9 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 10 ([Link da Pasta](https://github.com/senaiFrontEnd/Interacao-com-API-s)): A fazer 
+☑️ SPRINT 10 ([Link da Pasta]()): A fazer 
 
-☑️ SPRINT 11 ([Link da Pasta](https://github.com/senaiFrontEnd/Testes-de-Front-End)): A fazer 
+☑️ SPRINT 11 ([Link da Pasta]()): A fazer 
 
 <a href ="#pushpin-início">Voltar ao início</a>  
 <br> 
