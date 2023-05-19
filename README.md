@@ -71,7 +71,7 @@
 
 ## :calendar: Os Sprints
 
-☑️ SPRINT 1 ([Link da Pasta](https://github.com/senaiFrontEnd/Fundamento-da-tecnolgia-da-informacao-e-comunicao)): Concluído :heavy_check_mark:
+☑️ SPRINT 1 ([Link da Pasta](https://github.com/renato-wessmer/SENAI-Front-End/tree/main/02%20-%20Metodologias%20%C3%A1geis)): Concluído :heavy_check_mark:
 
 ☑️ SPRINT 2 ([Link da Pasta](https://github.com/senaiFrontEnd/metodologias-ageis)): A fazer 
 
