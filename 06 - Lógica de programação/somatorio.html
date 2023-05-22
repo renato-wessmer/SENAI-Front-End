@@ -8,7 +8,19 @@
 </head>
 <body>
     <script>
-        
+
+        num  = 1;
+        soma = 0;
+
+        while (num > 0) {
+
+            num = parseInt(prompt("Informar zero (0) para encerrar o script ou qualquer número maior que zero (0) para rodar o script"));
+            document.write(num + "<br>");
+            soma = soma + num;
+
+        }
+
+        document.write("Somatório: " + soma + "<br>");
 
     </script>
 </body>
