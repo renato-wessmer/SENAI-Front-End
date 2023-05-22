@@ -55,16 +55,16 @@
 |**-**|Ambientação| 20|4|20/03/2023|26/03/2023|
 |**-**|Aula inaugural|3|-|27/03/202|27/03/202|
 |**Básico**|Fundamento da tecnolgia da informação e comunicação|20|7|27/03/2023|04/04/2023|
-|**Introdutório**|Metodologias ágeis|12|4|05/04/2023|10/04/2023|
-|**Básico**|Fundamentos da qualidade e produtividade|8|3|11/04/2023|13/04/2023|
-|**Introdutório**|Versionamento|16|5|14/04/2023|20/04/2023|
-|**Básico**|Saúde e segurança no trabalho|12|4|24/04/2023|27/04/2023|
-|**Introdutório**|Lógica de programação|40|13|28/04/2023|17/05/2023|
-|**Básico**|Fundamentos da indústria 4.0|12|4|18/05/2023|23/05/2023|
-|**Básico**|Sustentabilidade nos processos industriais|8|3|24/05/2023|26/05/2023|
-|**Específico 1**|Codificação para Front-End|140|47|29/05/2023|03/08/2023|
-|**Específico 1**|Interação com API's|40|13|04/08/2023|22/08/2023|
-|**Específico 1**|Testes de Front-End|40|13|23/08/2023|13/09/2023|
+|**Introdutório**|Metodologias ágeis|12|4|05/04/2023|11/04/2023|
+|**Básico**|Fundamentos da qualidade e produtividade|8|3|12/04/2023|14/04/2023|
+|**Introdutório**|Versionamento|16|5|17/04/2023|25/04/2023|
+|**Básico**|Saúde e segurança no trabalho|12|4|26/04/2023|02/05/2023|
+|**Introdutório**|Lógica de programação|40|13|03/05/2023|19/05/2023|
+|**Básico**|Fundamentos da indústria 4.0|12|4|22/05/2023|25/05/2023|
+|**Básico**|Sustentabilidade nos processos industriais|8|3|26/05/2023|30/05/2023|
+|**Específico 1**|Codificação para Front-End|78|26|31/05/2023|25/07/2023|
+|**Específico 1**|Framework Front-Ende e com consumo de API|102|34|26/07/2023|14/09/2023|
+|**Específico 1**|Testes de Front-End|40|13|15/09/2023|03/10/2023|
 
 <a href ="#pushpin-início">Voltar ao início</a>  
 <br>
