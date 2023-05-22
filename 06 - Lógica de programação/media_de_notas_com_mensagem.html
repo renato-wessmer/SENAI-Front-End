@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+
+        <!-- Coamndo prompt pressupõe que a variável de entrada será do tipo string, logo necessitamos converter a string em número, pois as notas são números decimais com ponto flutuante, para isso usamos o método "parseFloat". -->
+
+        N1 = parseFloat(prompt("Informar a 1ª nota"));
+        N2 = parseFloat(prompt("Informar a 2ª nota"));
+        N3 = parseFloat(prompt("Informar a 3ª nota"));
+
+
+        media = (N1+N2+N3) / 3;
+
+        <!-- Comando toFixed foi utilizado para arredondar o resultado para duas casa decimais.-->
+
+        document.write("Média: " + media.toFixed(2) + "<br>");
+
+        if (media >= 6 )
+            document.write("Situação: Aprovado");
+        if (media >=3 && media <6)
+            document.write("Situação: Exame");
+        if(media <3)
+            document.write("Situação: Reprovado");
+
+    </script>
+</body>
+</html>
