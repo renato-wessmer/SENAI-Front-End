@@ -11,11 +11,23 @@
     <script>        
         si = parseInt(prompt("Informar o saldo inicial de peças"));
         
-        comprarVender = parseInt(prompt("Se você deseja comprar digie (1) se você deseja vender digite (2)"));
+        inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)"));
 
-        if (comprarVender == 1)
+        if (inserirRetirar == 1)
+            qc = parseInt(prompt("Informe a quantidade que deseja inserir"))
+            saqc = (qc + si);
+            document.write("O saldo atualizado é: " + saqc);
+            
+            while (resposta="sim") {
+                resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
+                qc = parseInt(prompt("Informe a quantidade que deseja inserir"))
+                saqce = (qc + saqc);
+                document.write("O saldo atualizado é: " + saqce);
+            }
+            document.writer("Sistema encerrado")
+            close
 
-        
+
 
     </script>
 
