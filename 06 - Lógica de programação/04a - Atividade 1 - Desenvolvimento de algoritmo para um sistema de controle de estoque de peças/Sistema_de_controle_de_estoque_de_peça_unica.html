@@ -14,8 +14,8 @@
         inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)"));
 
         while (inserirRetirar == 1) {
-            document.write("Saldo inicial: " + saldoInicial + "<br><br>")
-            quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"))
+            document.write("Saldo inicial: " + saldoInicial + "<br><br>");
+            quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"));
             saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
             document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir + "<br><br>");
             resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
@@ -30,8 +30,10 @@
 
         while (inserirRetirar == 2) {
             document.write("Saldo inicial: " + saldoInicial + "<br><br>")
-            quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"))
-            saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
+            quantidadeRetirar = parseInt(prompt("Informe a quantidade que deseja retirar"))
+            if (quantidadeRetirar>saldoInicial)
+                prompt("Essa operação é inválida, pois não pode existir estoque negativo")
+            saldoAtualizadoQuantidadeRetirar = (quantidadeRetirar + saldoInicial);
             document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir + "<br><br>");
             resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
             while (resposta == "sim") {              
