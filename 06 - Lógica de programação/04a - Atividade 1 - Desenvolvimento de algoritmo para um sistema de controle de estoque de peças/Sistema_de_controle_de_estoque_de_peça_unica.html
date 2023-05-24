@@ -9,23 +9,25 @@
 <body>
 
     <script>        
-        si = parseInt(prompt("Informar o saldo inicial de peças"));
+        saldoInicial = parseInt(prompt("Informar o saldo inicial de peças"));
         
         inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)"));
 
-        if (inserirRetirar == 1)
-            document.write("Saldo inicial: " + si + "<br>")
-            qc = parseInt(prompt("Informe a quantidade que deseja inserir"))
-            saqc = (qc + si);
+        while (inserirRetirar == 1) {
+            document.write("Saldo inicial: " + saldoInicial + "<br>")
+            quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"))
+            saqc = (quantidadeInserir + saldoInicial);
             document.write("O saldo atualizado é: " + saqc + "<br>");
             resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
             while (resposta == "sim") {              
-                qc1 = parseInt(prompt("Informe a nova quantidade que deseja inserir"));
-                saqce = (qc1 + saqc);    
+                quantidadeInserir1 = parseInt(prompt("Informe a nova quantidade que deseja inserir"));
+                saqce = (quantidadeInserir1 + saqc);    
                 document.write("O saldo atualizado é: " + saqce + "<br><br>");    
                 resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
-            }      
-            document.write("Sistema encerrado");
+            }  
+            inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)"));
+        }    
+                        document.write("Sistema encerrado");
 
 
 
