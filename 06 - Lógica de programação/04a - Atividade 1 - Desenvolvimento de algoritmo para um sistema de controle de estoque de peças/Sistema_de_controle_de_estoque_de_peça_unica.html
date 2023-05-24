@@ -14,18 +14,18 @@
         inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)"));
 
         if (inserirRetirar == 1)
+            document.write("Saldo inicial: " + si + "<br>")
             qc = parseInt(prompt("Informe a quantidade que deseja inserir"))
             saqc = (qc + si);
-            document.write("O saldo atualizado é: " + saqc);
-            
-            while (resposta="sim") {
+            document.write("O saldo atualizado é: " + saqc + "<br>");
+            resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
+            while (resposta == "sim") {              
+                qc1 = parseInt(prompt("Informe a nova quantidade que deseja inserir"));
+                saqce = (qc1 + saqc);    
+                document.write("O saldo atualizado é: " + saqce + "<br><br>");    
                 resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
-                qc = parseInt(prompt("Informe a quantidade que deseja inserir"))
-                saqce = (qc + saqc);
-                document.write("O saldo atualizado é: " + saqce);
-            }
-            document.writer("Sistema encerrado")
-            close
+            }      
+            document.write("Sistema encerrado");
 
 
 
