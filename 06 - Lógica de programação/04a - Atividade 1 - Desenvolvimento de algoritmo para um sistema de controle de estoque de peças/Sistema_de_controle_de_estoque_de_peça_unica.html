@@ -34,13 +34,13 @@
             if (quantidadeRetirar>saldoInicial)
                 prompt("Essa operação é inválida, pois não pode existir estoque negativo")
             saldoAtualizadoQuantidadeRetirar = (quantidadeRetirar + saldoInicial);
-            document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir + "<br><br>");
-            resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
+            document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeRetirar + "<br><br>");
+            resposta = prompt("Se desejar retirar mais peças digite sim, caso contrário digite não");
             while (resposta == "sim") {              
-                quantidadeInserir1 = parseInt(prompt("Informe a nova quantidade que deseja inserir"));
-                saldoAtualizadoQuantidadeInserir1 = (QuantidadeInserir1 + saldoAtualizadoQuantidadeInserir);    
-                document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir1 + "<br><br>");    
-                resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
+                quantidadeRetirar1 = parseInt(prompt("Informe a nova quantidade que deseja inserir"));
+                saldoAtualizadoQuantidadeRetirar1 = (QuantidadeRetirar1 + saldoAtualizadoQuantidadeRetirar);    
+                document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeRetirar1 + "<br><br>");    
+                resposta = prompt("Se desejar retirar mais peças digite sim, caso contrário digite não");
             }  
         }    
         document.write("Sistema encerrado");
