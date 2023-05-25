@@ -10,45 +10,25 @@
 
     <script>
     
-    saldoInicial = parseInt(prompt("Informar o saldo inicial de peças"));    
+    saldoInicial = parseInt(prompt("Informar o saldo inicial de peças")); 
 
-    encerrar = "não"
-
-    While (encerrar != "não") {
-
-    inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)"));
-
-    if (inserirRetirar == 1) {
-
-
-
-    }
-
-
-
-    } 
+    encerrar = "sim";
+    
+    while (encerrar == "sim") {
 
     
+        inserirRetirar = parseInt(prompt("Se você deseja inserir digite (1) se você deseja retirar digite (2)"));
 
-            document.write("Saldo inicial: " + saldoInicial + "<br><br>")
+        if (inserirRetirar == 1) {
             quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"));
             saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
             document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir + "<br><br>");
-            resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");  
-            while (resposta == "sim") {                  
-                quantidadeInserir1 = parseInt(prompt("Informe a nova quantidade que deseja inserir"));
-                saldoAtualizadoQuantidadeInserir1 = (quantidadeInserir1 + saldoAtualizadoQuantidadeInserir);    
-                document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir1 + "<br><br>");    
-                resposta = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não");
-            }   
-        inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)"));         
-        }    
-
-        while (inserirRetirar == 2) {
-            document.write("alo brasil");
-            inserirRetirar = parseInt(prompt("Se você deseja inserir digie (1) se você deseja retirar digite (2)    ")); 
-            }   
-            document.write("Sistema encerrado");
+        }             
+        
+        encerrar = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não"); 
+    }
+                
+    document.write("Sistema encerrado");
 
     </script>
 
