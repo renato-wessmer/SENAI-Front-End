@@ -15,18 +15,30 @@
     encerrar = "sim";
     
     while (encerrar == "sim") {
-
     
         inserirRetirar = parseInt(prompt("Se você deseja inserir digite (1) se você deseja retirar digite (2)"));
 
         if (inserirRetirar == 1) {
-            quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"));
-            saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
-            document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir + "<br><br>");
-        }             
+            inserir = 1;
+            while (inserir == 1) {
+                quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"));
+                saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
+                document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir + "<br><br>");
+                inserir = prompt("Se desejar adicionar mais peças digite (1), caso contrário digite (2))");
+            }   
+        } else {
+            
+
+
+
+            
+        }
         
-        encerrar = prompt("Se desejar adicionar mais peças digite sim, caso contrário digite não"); 
-    }
+
+
+        encerrar = prompt("Se desejar permanecer no sistema digite sim, caso contrário digite não");    
+    }    
+
                 
     document.write("Sistema encerrado");
 
