@@ -19,25 +19,26 @@
         inserirRetirar = parseInt(prompt("Se você deseja inserir digite (1) se você deseja retirar digite (2)"));
 
         if (inserirRetirar == 1) {
-            inserir = 1;
-            while (inserir == 1) {
+            inserir = "ADICIONAR";
+            while (inserir == "ADICIONAR") {
                 quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"));
                 saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
                 document.write("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir + "<br><br>");
-                inserir = prompt("Se desejar adicionar mais peças digite (1), caso contrário digite (2))");
+                inserir = prompt("Se desejar adicionar mais peças digite ADICIONAR caso contrário digite SAIR");
             }   
         } else {
-            
+            quantidadeRetirar = parseInt(prompt("Informe a quantidade que deseja retirar"));
+                if (quantidadeRetirar > saldoInicial) {
+                    prompt("Essa operação não é possível, pois o estoque não pode ser negativo");
+                }
 
-
-
-            
+            }
         }
         
 
 
         encerrar = prompt("Se desejar permanecer no sistema digite sim, caso contrário digite não");    
-    }    
+   
 
                 
     document.write("Sistema encerrado");
