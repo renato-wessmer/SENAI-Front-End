@@ -7,22 +7,22 @@
     <title>Sistema de controle de estoque de peça única</title>
 </head>
 <body>
-    <script>
+    <script>    
         saldoInicial = parseInt(prompt("Informar o saldo inicial de peças")); 
-        encerrar = "sim";
+        encerrar = "sim";    
         while (encerrar == "sim") {    
             inserirRetirar = parseInt(prompt("Se você deseja inserir digite (1) se você deseja retirar digite (2)"));
             if (inserirRetirar == 1) {
-                inserir = "adicionar";
-                while (inserir == "adicionar") {
+                inserir = "ADICIONAR";
+                while (inserir == "ADICIONAR") {
                     quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"));
                     saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
                     alert("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir);
-                    inserir = prompt("Se desejar adicionar mais peças digite -/ adicionar /- caso contrário digite -/ sair /-");
+                    inserir = prompt("Se desejar adicionar mais peças digite -/ ADICIONAR /- caso contrário digite -/ SAIR /-");
                 }
             }else {
-                pegar = "retirar";
-                while (pegar == "retirar") {
+                pegar = "RETIRAR";
+                while (pegar == "RETIRAR") {
                     quantidadeRetirar = parseInt(prompt("Informe a quantidade que deseja retirar"));
                     if (saldoInicial < quantidadeRetirar) {
                         alert("Essa operação não é possível, pois o estoque não pode ser negativo");
@@ -30,14 +30,14 @@
                     } else {    
                     saldoAtualizadoQuantidadeRetirar = (saldoInicial - quantidadeRetirar);
                     alert("O saldo atualizado é: " + saldoAtualizadoQuantidadeRetirar);
-                    pegar = prompt("Se desejar retirar mais peças digite -/ retirar /- caso contrário digite -/ sair /- ");
+                    pegar = prompt("Se desejar retirar mais peças digite -/RETIRAR/- caso contrário digite -/SAIR/- ");
                     }
                 }
             } 
             encerrar = prompt("Se desejar permanecer no sistema digite sim, caso contrário digite não");    
         }    
         alert("Sistema encerrado"); 
-    </script>
+    </script>    
 </body>
 </html>
 
