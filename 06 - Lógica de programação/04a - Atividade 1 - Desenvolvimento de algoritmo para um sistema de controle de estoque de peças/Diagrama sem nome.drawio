@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T03:41:04.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cYhVhzErplPJQ6HSTHnJ" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T03:47:09.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ee5yEs8BteUfRADRMbYe" version="21.3.3" type="github">
   <diagram name="Página-1" id="WQ8vJuSL8quvfqCCU9tl">
-    <mxGraphModel dx="2181" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1100" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,25 +17,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-3" value="Inserir digite (1)&lt;br&gt;Retirar digite (2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="274" y="310" width="180" height="90" as="geometry" />
+          <mxGeometry x="280" y="240" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=70;exitDy=70;exitPerimeter=0;" edge="1" parent="1" source="54azmL67wLqtKhJhB7nY-4" target="54azmL67wLqtKhJhB7nY-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-4" value="informar o saldo&lt;br&gt;&amp;nbsp;inicial da peça" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="100" width="140" height="70" as="geometry" />
+          <mxGeometry x="490" y="70" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="54azmL67wLqtKhJhB7nY-7" target="54azmL67wLqtKhJhB7nY-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-7" value="&lt;br&gt;saldoInicial" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="314" y="160" width="100" height="70" as="geometry" />
+          <mxGeometry x="320" y="130" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="54azmL67wLqtKhJhB7nY-10" target="54azmL67wLqtKhJhB7nY-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-10" value="Quantidade que&lt;br&gt;&amp;nbsp;deseja inserir" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="400" width="150" height="70" as="geometry" />
+          <mxGeometry x="118.75" y="360" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="54azmL67wLqtKhJhB7nY-12" target="54azmL67wLqtKhJhB7nY-17">
           <mxGeometry relative="1" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-16" value="&lt;br&gt;quantidadeInserir" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="85" y="550" width="145" height="80" as="geometry" />
+          <mxGeometry x="123.75" y="470" width="145" height="80" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-17" value="&lt;br&gt;quantidadeRetirar" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="507.5" y="545" width="135" height="80" as="geometry" />
@@ -56,10 +56,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-20" value="saldoAtualizadoQuantidadeInserir = quantidadeInserir + saldoInicial" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-28.75" y="710" width="372.5" height="60" as="geometry" />
+          <mxGeometry x="10" y="585" width="372.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="54azmL67wLqtKhJhB7nY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="54azmL67wLqtKhJhB7nY-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196.63999999999987" y="840.72" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="54azmL67wLqtKhJhB7nY-25" value="saldoAtualizadoQuantidadeInserir" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="46.25" y="840" width="222.5" height="80" as="geometry" />
+          <mxGeometry x="85" y="700" width="222.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="54azmL67wLqtKhJhB7nY-34" value="Deseja adicionar &lt;br&gt;mais peças" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="840" width="143.75" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
