@@ -53,7 +53,7 @@
 |Módulo|Unidades Curriculares |Carga horária total (h)|Dias|Início| Término|
 | -------- |-------- |-------- |-------- |-------- | -------- |
 |**-**|Ambientação| 20|4|20/03/2023|26/03/2023|
-|**-**|Aula inaugural|3|-|27/03/202|27/03/202|
+|**-**|Aula inaugural|3|-|27/03/2023|27/03/2023|
 |**Básico**|Fundamento da tecnolgia da informação e comunicação|20|7|27/03/2023|04/04/2023|
 |**Introdutório**|Metodologias ágeis|12|4|05/04/2023|11/04/2023|
 |**Básico**|Fundamentos da qualidade e produtividade|8|3|12/04/2023|14/04/2023|
