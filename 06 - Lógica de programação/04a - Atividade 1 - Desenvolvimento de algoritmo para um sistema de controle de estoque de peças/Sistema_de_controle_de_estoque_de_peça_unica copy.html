@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de controle de estoque de peça única</title>
+</head>
+<body>
+
+    <script>
+        saldoInicial = parseInt(prompt("Informar o saldo inicial de peças")); 
+        document.write("Saldo inicial: " + saldoInicial + "<br>");
+        encerrar = "sim";
+        while (encerrar == "sim") {   
+            // instrução do whille 
+            inserirRetirar = parseInt(prompt("Se você deseja inserir digite (1) se você deseja retirar digite (2)"));
+            if (inserirRetirar == 1) {
+                inserir = "adicionar";
+                while (inserir == "adicionar") {
+                    quantidadeInserir = parseInt(prompt("Informe a quantidade que deseja inserir"));
+                    saldoAtualizadoQuantidadeInserir = (quantidadeInserir + saldoInicial);
+                    alert("O saldo atualizado é: " + saldoAtualizadoQuantidadeInserir);
+                    inserir = prompt("Se desejar adicionar mais peças digite -/ adicionar /- caso contrário digite -/ sair /-");
+                }
+            }else {
+                pegar = "retirar";
+                while (pegar == "retirar") {
+                    quantidadeRetirar = parseInt(prompt("Informe a quantidade que deseja retirar"));
+                    if (saldoInicial < quantidadeRetirar) {
+                        alert("Essa operação não é possível, pois o estoque não pode ser negativo");
+                        break
+                    } else {    
+                    saldoAtualizadoQuantidadeRetirar = (saldoInicial - quantidadeRetirar);
+                    alert("O saldo atualizado é: " + saldoAtualizadoQuantidadeRetirar);
+                    pegar = prompt("Se desejar retirar mais peças digite -/ retirar /- caso contrário digite -/ sair /- ");
+                    }
+                }
+            } 
+            encerrar = prompt("Se desejar permanecer no sistema digite sim, caso contrário digite não");    
+        }    
+        alert("Sistema encerrado"); 
+    </script>
+</body>
+</html>
+
+
