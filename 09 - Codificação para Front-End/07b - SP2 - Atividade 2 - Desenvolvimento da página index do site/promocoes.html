@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uma loja de eletrônicos voltado ao universo gamer.">
+  <meta name="keywords" content="Promoções, Game, Jogos, Computador, Console, Diversão, Eletrônicos, Gamer">
+  <meta name="author" content="Renato">
+  <title>LH Games</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/estilo.css">
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./img/index/logo.png" alt="Imagem do logo da empresa">></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./promocoes.html">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./console.html">Console</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./jogos.html">Jogos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./login.html">>>Login<<</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="O que deseja buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="section-vendidos" class="container-fluid">
+
+      <h2>AQUELE PREÇINHO QUE VOCÊ GOSTA</h2>
+
+      <div class="card-group"> <!-- Faz com que os cards se alinhem na horizontal-->
+
+        <div class="card" style="width: 18rem;">
+          <img src="./IMG/promocoes/1.jpg" class="card-img-top" alt="Free Fire">
+          <div class="card-body">
+            <h5 class="card-title">Free Fire</h5>
+            <p class="preco">190,00</p>
+            <a href="./login.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./IMG/promocoes/2.jpg" class="card-img-top" alt="lol">
+          <div class="card-body">
+            <h5 class="card-title">lol</h5>
+            <p class="preco">290,00</p>
+            <a href="./login.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./IMG/promocoes/3.jpg" class="card-img-top" alt="God Valley">
+          <div class="card-body">
+            <h5 class="card-title">God Valley</h5>
+            <p class="preco">150,00</p>
+            <a href="./login.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card-group"> <!-- Faz com que os cards se alinhem na horizontal-->
+
+
+        <div class="card" style="width: 18rem;">
+          <img src="./IMG/promocoes/4.jpg" class="card-img-top" alt="Jogo de aventura">
+          <div class="card-body">
+            <h5 class="card-title">Free Fire</h5>
+            <p class="card-text">Melhor de todos</p>
+            <p class="preco">150,00</p>
+            <a href="./login.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./IMG/promocoes/5.jpg" class="card-img-top" alt="Jogo de aventura">
+          <div class="card-body">
+            <h5 class="card-title">Jogo 3</h5>
+            <p class="card-text">Melhor de todos</p>
+            <p class="preco">150,00</p>
+            <a href="./login.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./IMG/promocoes/6.jpg" class="card-img-top" alt="Jogo de aventura">
+          <div class="card-body">
+            <h5 class="card-title">Jogo 3</h5>
+            <p class="card-text">Melhor de todos</p>
+            <p class="preco">150,00</p>
+            <a href="./login.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por LH Games</p>
+  </footer>
+
+  <button id="voltar-topo" type="button" class="btn btn-outline-primary" onclick="topo()">&uarr; Voltar ao topo</button>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
