@@ -23,6 +23,12 @@ main{
     text-align: center;
 }
 
+#section-vendidos h1 {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 50px;
+}
+
 #section-vendidos h2 {
     font-weight: bold;
     padding: 20px;
